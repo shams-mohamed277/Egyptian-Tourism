@@ -1,0 +1,38 @@
+/* Extra simple styles */
+
+#header{
+    height: 30vh !important;
+}
+.hr {           
+      height: 3px;             
+  }
+
+
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Responses */
+@media (max-width: 576px) {
+  .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.container {
+  padding-left: 0;
+  padding-right: 0;
+}
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+@media (max-width: 576px) {
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+}
